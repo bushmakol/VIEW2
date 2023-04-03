@@ -6,7 +6,7 @@
 			<include name="smoke" />
 		</run>
 </groups>
-<parameter name="browser" value="chrome headless" />
+<parameter name="browser" value="chrome" />
 
 <listeners>
 <listener class-name="testcomponents.Listeners"></listener>
