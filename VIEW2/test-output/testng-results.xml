@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="37" total="55" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-03T08:34:54 CEST" name="Suite" finished-at="2023-04-03T08:43:49 CEST" duration-ms="534943">
+    <groups>
+      <group name="regression">
+        <method signature="AdminCustomerMessagePageTests.test_Add_New_Customer_Message()[pri:1, instance:Tietoevry.VIEW.AdminCustomerMessagePageTests@3568f9d2]" name="test_Add_New_Customer_Message" class="Tietoevry.VIEW.AdminCustomerMessagePageTests"/>
+        <method signature="AdminDashboardPageTests.test_Verify_Admin_Dashborad_Page_Displayed_Correctly()[pri:1, instance:Tietoevry.VIEW.AdminDashboardPageTests@71c27ee8]" name="test_Verify_Admin_Dashborad_Page_Displayed_Correctly" class="Tietoevry.VIEW.AdminDashboardPageTests"/>
+        <method signature="AdminCustomerMessagePageTests.test_Stop_NewlyAdded_Customer_Message()[pri:2, instance:Tietoevry.VIEW.AdminCustomerMessagePageTests@3568f9d2]" name="test_Stop_NewlyAdded_Customer_Message" class="Tietoevry.VIEW.AdminCustomerMessagePageTests"/>
+        <method signature="AdminCloudLoginPageTests.test_Admin_Valid_Login()[pri:5, instance:Tietoevry.VIEW.AdminCloudLoginPageTests@3e7dd664]" name="test_Admin_Valid_Login" class="Tietoevry.VIEW.AdminCloudLoginPageTests"/>
+        <method signature="AdminSupportBrickTest.test_Navigation_From_Support_Brick_As_CustomerAdmin()[pri:0, instance:Tietoevry.VIEW.AdminSupportBrickTest@77825085]" name="test_Navigation_From_Support_Brick_As_CustomerAdmin" class="Tietoevry.VIEW.AdminSupportBrickTest"/>
+        <method signature="CustomerAPIAndEventCataloguePageTests.test_Verify_Customer_ApiAndEventCatalogue_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerAPIAndEventCataloguePageTests@6127a7e]" name="test_Verify_Customer_ApiAndEventCatalogue_Page_Opens_Correctly" class="Tietoevry.VIEW.CustomerAPIAndEventCataloguePageTests"/>
+        <method signature="CustomerCertificatePageTests.test_Verify_Customer_Certificate_Page_Displayed_Properly()[pri:1, instance:Tietoevry.VIEW.CustomerCertificatePageTests@497486b3]" name="test_Verify_Customer_Certificate_Page_Displayed_Properly" class="Tietoevry.VIEW.CustomerCertificatePageTests"/>
+        <method signature="CustomerCloudDashboardPageTests.test_Verify_Cloud_CustomerDashborad_Page_Displayed_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerCloudDashboardPageTests@75f95314]" name="test_Verify_Cloud_CustomerDashborad_Page_Displayed_Correctly" class="Tietoevry.VIEW.CustomerCloudDashboardPageTests"/>
+        <method signature="CustomerCloudUserPageTests.test_Verify_Cloud_Customer_User_Page_Displayed_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerCloudUserPageTests@736caf7a]" name="test_Verify_Cloud_Customer_User_Page_Displayed_Correctly" class="Tietoevry.VIEW.CustomerCloudUserPageTests"/>
+        <method signature="CustomerDocumentsPageTests.test_Verify_Documents_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerDocumentsPageTests@63f8276e]" name="test_Verify_Documents_Page_Opens_Correctly" class="Tietoevry.VIEW.CustomerDocumentsPageTests"/>
+        <method signature="CustomerMessagesPageTests.test_Verify_Customer_Message_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerMessagesPageTests@6bbe2511]" name="test_Verify_Customer_Message_Page_Opens_Correctly" class="Tietoevry.VIEW.CustomerMessagesPageTests"/>
+        <method signature="CustomerMyProfilePageTests.test_Verify_Customer_MyProfile_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerMyProfilePageTests@687ef2e0]" name="test_Verify_Customer_MyProfile_Page_Opens_Correctly" class="Tietoevry.VIEW.CustomerMyProfilePageTests"/>
+        <method signature="CustomerPSD2ReportPageTests.test_Verify_Customer_PSD2_Report_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerPSD2ReportPageTests@15dcfae7]" name="test_Verify_Customer_PSD2_Report_Page_Opens_Correctly" class="Tietoevry.VIEW.CustomerPSD2ReportPageTests"/>
+        <method signature="CustomerScorecardPageTests.test_Verify_Customer_Scorecard_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerScorecardPageTests@76012793]" name="test_Verify_Customer_Scorecard_Page_Opens_Correctly" class="Tietoevry.VIEW.CustomerScorecardPageTests"/>
+        <method signature="CustomerServiceCataloguePageTests.test_Verify_Customer_ServiceCatalogue_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerServiceCataloguePageTests@3da05287]" name="test_Verify_Customer_ServiceCatalogue_Page_Opens_Correctly" class="Tietoevry.VIEW.CustomerServiceCataloguePageTests"/>
+        <method signature="CustomerServiceDeskPageTests.test_Verify_Customer_ServiceDesk_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerServiceDeskPageTests@115667d]" name="test_Verify_Customer_ServiceDesk_Page_Opens_Correctly" class="Tietoevry.VIEW.CustomerServiceDeskPageTests"/>
+        <method signature="CustomerSlaReportPageTests.test_Verify_Customer_Sla_Report_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerSlaReportPageTests@1e636ea3]" name="test_Verify_Customer_Sla_Report_Page_Opens_Correctly" class="Tietoevry.VIEW.CustomerSlaReportPageTests"/>
+        <method signature="CustomerWebServiceStatisticsPageTests.test_Verify_Customer_Web_Service_Statistics_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerWebServiceStatisticsPageTests@4ce7fffa]" name="test_Verify_Customer_Web_Service_Statistics_Page_Opens_Correctly" class="Tietoevry.VIEW.CustomerWebServiceStatisticsPageTests"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="AdminCustomerMessagePageTests.test_Add_New_Customer_Message()[pri:1, instance:Tietoevry.VIEW.AdminCustomerMessagePageTests@3568f9d2]" name="test_Add_New_Customer_Message" class="Tietoevry.VIEW.AdminCustomerMessagePageTests"/>
+        <method signature="AdminDashboardPageTests.test_Verify_Admin_Dashborad_Page_Displayed_Correctly()[pri:1, instance:Tietoevry.VIEW.AdminDashboardPageTests@71c27ee8]" name="test_Verify_Admin_Dashborad_Page_Displayed_Correctly" class="Tietoevry.VIEW.AdminDashboardPageTests"/>
+        <method signature="AdminCustomerMessagePageTests.test_Stop_NewlyAdded_Customer_Message()[pri:2, instance:Tietoevry.VIEW.AdminCustomerMessagePageTests@3568f9d2]" name="test_Stop_NewlyAdded_Customer_Message" class="Tietoevry.VIEW.AdminCustomerMessagePageTests"/>
+        <method signature="AdminCloudLoginPageTests.test_Admin_Valid_Login()[pri:5, instance:Tietoevry.VIEW.AdminCloudLoginPageTests@3e7dd664]" name="test_Admin_Valid_Login" class="Tietoevry.VIEW.AdminCloudLoginPageTests"/>
+        <method signature="AdminSupportBrickTest.test_Navigation_From_Support_Brick_As_CustomerAdmin()[pri:0, instance:Tietoevry.VIEW.AdminSupportBrickTest@77825085]" name="test_Navigation_From_Support_Brick_As_CustomerAdmin" class="Tietoevry.VIEW.AdminSupportBrickTest"/>
+        <method signature="CustomerAPIAndEventCataloguePageTests.test_Verify_Customer_ApiAndEventCatalogue_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerAPIAndEventCataloguePageTests@6127a7e]" name="test_Verify_Customer_ApiAndEventCatalogue_Page_Opens_Correctly" class="Tietoevry.VIEW.CustomerAPIAndEventCataloguePageTests"/>
+        <method signature="CustomerCertificatePageTests.test_Verify_Customer_Certificate_Page_Displayed_Properly()[pri:1, instance:Tietoevry.VIEW.CustomerCertificatePageTests@497486b3]" name="test_Verify_Customer_Certificate_Page_Displayed_Properly" class="Tietoevry.VIEW.CustomerCertificatePageTests"/>
+        <method signature="CustomerCloudDashboardPageTests.test_Verify_Cloud_CustomerDashborad_Page_Displayed_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerCloudDashboardPageTests@75f95314]" name="test_Verify_Cloud_CustomerDashborad_Page_Displayed_Correctly" class="Tietoevry.VIEW.CustomerCloudDashboardPageTests"/>
+        <method signature="CustomerCloudUserPageTests.test_Verify_Cloud_Customer_User_Page_Displayed_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerCloudUserPageTests@736caf7a]" name="test_Verify_Cloud_Customer_User_Page_Displayed_Correctly" class="Tietoevry.VIEW.CustomerCloudUserPageTests"/>
+        <method signature="CustomerDocumentsPageTests.test_Verify_Documents_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerDocumentsPageTests@63f8276e]" name="test_Verify_Documents_Page_Opens_Correctly" class="Tietoevry.VIEW.CustomerDocumentsPageTests"/>
+        <method signature="CustomerMessagesPageTests.test_Verify_Customer_Message_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerMessagesPageTests@6bbe2511]" name="test_Verify_Customer_Message_Page_Opens_Correctly" class="Tietoevry.VIEW.CustomerMessagesPageTests"/>
+        <method signature="CustomerMyProfilePageTests.test_Verify_Customer_MyProfile_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerMyProfilePageTests@687ef2e0]" name="test_Verify_Customer_MyProfile_Page_Opens_Correctly" class="Tietoevry.VIEW.CustomerMyProfilePageTests"/>
+        <method signature="CustomerPSD2ReportPageTests.test_Verify_Customer_PSD2_Report_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerPSD2ReportPageTests@15dcfae7]" name="test_Verify_Customer_PSD2_Report_Page_Opens_Correctly" class="Tietoevry.VIEW.CustomerPSD2ReportPageTests"/>
+        <method signature="CustomerScorecardPageTests.test_Verify_Customer_Scorecard_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerScorecardPageTests@76012793]" name="test_Verify_Customer_Scorecard_Page_Opens_Correctly" class="Tietoevry.VIEW.CustomerScorecardPageTests"/>
+        <method signature="CustomerServiceCataloguePageTests.test_Verify_Customer_ServiceCatalogue_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerServiceCataloguePageTests@3da05287]" name="test_Verify_Customer_ServiceCatalogue_Page_Opens_Correctly" class="Tietoevry.VIEW.CustomerServiceCataloguePageTests"/>
+        <method signature="CustomerServiceDeskPageTests.test_Verify_Customer_ServiceDesk_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerServiceDeskPageTests@115667d]" name="test_Verify_Customer_ServiceDesk_Page_Opens_Correctly" class="Tietoevry.VIEW.CustomerServiceDeskPageTests"/>
+        <method signature="CustomerSlaReportPageTests.test_Verify_Customer_Sla_Report_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerSlaReportPageTests@1e636ea3]" name="test_Verify_Customer_Sla_Report_Page_Opens_Correctly" class="Tietoevry.VIEW.CustomerSlaReportPageTests"/>
+        <method signature="CustomerWebServiceStatisticsPageTests.test_Verify_Customer_Web_Service_Statistics_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerWebServiceStatisticsPageTests@4ce7fffa]" name="test_Verify_Customer_Web_Service_Statistics_Page_Opens_Correctly" class="Tietoevry.VIEW.CustomerWebServiceStatisticsPageTests"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-04-03T08:34:54 CEST" name="Admin Section Tests" finished-at="2023-04-03T08:38:03 CEST" duration-ms="189085">
+      <class name="Tietoevry.VIEW.AdminSupportBrickTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Tietoevry.VIEW.AdminSupportBrickTest@77825085]" started-at="2023-04-03T08:34:54 CEST" name="setup" finished-at="2023-04-03T08:35:02 CEST" duration-ms="8195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome headless]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://test.view.tietoevry.com/Admin/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Navigation_From_Support_Brick_As_CustomerAdmin()[pri:0, instance:Tietoevry.VIEW.AdminSupportBrickTest@77825085]" started-at="2023-04-03T08:35:02 CEST" name="test_Navigation_From_Support_Brick_As_CustomerAdmin" finished-at="2023-04-03T08:35:54 CEST" duration-ms="51910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Navigation_From_Support_Brick_As_CustomerAdmin -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:Tietoevry.VIEW.AdminSupportBrickTest@77825085]" started-at="2023-04-03T08:35:54 CEST" name="getResults" finished-at="2023-04-03T08:35:56 CEST" duration-ms="1653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Navigation_From_Support_Brick_As_CustomerAdmin status=SUCCESS method=AdminSupportBrickTest.test_Navigation_From_Support_Brick_As_CustomerAdmin()[pri:0, instance:Tietoevry.VIEW.AdminSupportBrickTest@77825085] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- Tietoevry.VIEW.AdminSupportBrickTest -->
+      <class name="Tietoevry.VIEW.AdminDashboardPageTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Tietoevry.VIEW.AdminDashboardPageTests@71c27ee8]" started-at="2023-04-03T08:37:06 CEST" name="setup" finished-at="2023-04-03T08:37:10 CEST" duration-ms="3546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome headless]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://test.view.tietoevry.com/Admin/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Verify_Admin_Dashborad_Page_Displayed_Correctly()[pri:1, instance:Tietoevry.VIEW.AdminDashboardPageTests@71c27ee8]" started-at="2023-04-03T08:37:10 CEST" name="test_Verify_Admin_Dashborad_Page_Displayed_Correctly" finished-at="2023-04-03T08:37:27 CEST" duration-ms="16983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Verify_Admin_Dashborad_Page_Displayed_Correctly -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:Tietoevry.VIEW.AdminDashboardPageTests@71c27ee8]" started-at="2023-04-03T08:37:27 CEST" name="getResults" finished-at="2023-04-03T08:37:40 CEST" duration-ms="13105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Verify_Admin_Dashborad_Page_Displayed_Correctly status=SUCCESS method=AdminDashboardPageTests.test_Verify_Admin_Dashborad_Page_Displayed_Correctly()[pri:1, instance:Tietoevry.VIEW.AdminDashboardPageTests@71c27ee8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- Tietoevry.VIEW.AdminDashboardPageTests -->
+      <class name="Tietoevry.VIEW.AdminCloudLoginPageTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Tietoevry.VIEW.AdminCloudLoginPageTests@3e7dd664]" started-at="2023-04-03T08:37:40 CEST" name="setup" finished-at="2023-04-03T08:37:44 CEST" duration-ms="3732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome headless]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://test.view.tietoevry.com/Admin/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Admin_Valid_Login()[pri:5, instance:Tietoevry.VIEW.AdminCloudLoginPageTests@3e7dd664]" started-at="2023-04-03T08:37:44 CEST" name="test_Admin_Valid_Login" finished-at="2023-04-03T08:37:50 CEST" duration-ms="5992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Admin_Valid_Login -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:Tietoevry.VIEW.AdminCloudLoginPageTests@3e7dd664]" started-at="2023-04-03T08:37:50 CEST" name="getResults" finished-at="2023-04-03T08:38:03 CEST" duration-ms="13119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Admin_Valid_Login status=SUCCESS method=AdminCloudLoginPageTests.test_Admin_Valid_Login()[pri:5, instance:Tietoevry.VIEW.AdminCloudLoginPageTests@3e7dd664] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- Tietoevry.VIEW.AdminCloudLoginPageTests -->
+      <class name="Tietoevry.VIEW.AdminCustomerMessagePageTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Tietoevry.VIEW.AdminCustomerMessagePageTests@3568f9d2]" started-at="2023-04-03T08:35:56 CEST" name="setup" finished-at="2023-04-03T08:35:59 CEST" duration-ms="3524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome headless]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://test.view.tietoevry.com/Admin/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Add_New_Customer_Message()[pri:1, instance:Tietoevry.VIEW.AdminCustomerMessagePageTests@3568f9d2]" started-at="2023-04-03T08:35:59 CEST" name="test_Add_New_Customer_Message" finished-at="2023-04-03T08:36:26 CEST" duration-ms="26270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Add_New_Customer_Message -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:Tietoevry.VIEW.AdminCustomerMessagePageTests@3568f9d2]" started-at="2023-04-03T08:36:26 CEST" name="getResults" finished-at="2023-04-03T08:36:39 CEST" duration-ms="13019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Add_New_Customer_Message status=SUCCESS method=AdminCustomerMessagePageTests.test_Add_New_Customer_Message()[pri:1, instance:Tietoevry.VIEW.AdminCustomerMessagePageTests@3568f9d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Tietoevry.VIEW.AdminCustomerMessagePageTests@3568f9d2]" started-at="2023-04-03T08:36:39 CEST" name="setup" finished-at="2023-04-03T08:36:42 CEST" duration-ms="3660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome headless]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://test.view.tietoevry.com/Admin/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Stop_NewlyAdded_Customer_Message()[pri:2, instance:Tietoevry.VIEW.AdminCustomerMessagePageTests@3568f9d2]" started-at="2023-04-03T08:36:42 CEST" name="test_Stop_NewlyAdded_Customer_Message" finished-at="2023-04-03T08:36:53 CEST" depends-on-methods="Tietoevry.VIEW.AdminCustomerMessagePageTests.test_Add_New_Customer_Message" duration-ms="10880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Stop_NewlyAdded_Customer_Message -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:Tietoevry.VIEW.AdminCustomerMessagePageTests@3568f9d2]" started-at="2023-04-03T08:36:53 CEST" name="getResults" finished-at="2023-04-03T08:37:06 CEST" duration-ms="12927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Stop_NewlyAdded_Customer_Message status=SUCCESS method=AdminCustomerMessagePageTests.test_Stop_NewlyAdded_Customer_Message()[pri:2, instance:Tietoevry.VIEW.AdminCustomerMessagePageTests@3568f9d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- Tietoevry.VIEW.AdminCustomerMessagePageTests -->
+    </test> <!-- Admin Section Tests -->
+    <test started-at="2023-04-03T08:38:03 CEST" name="Customer Section Tests" finished-at="2023-04-03T08:43:49 CEST" duration-ms="345572">
+      <class name="Tietoevry.VIEW.CustomerSlaReportPageTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Tietoevry.VIEW.CustomerSlaReportPageTests@1e636ea3]" started-at="2023-04-03T08:39:31 CEST" name="setup" finished-at="2023-04-03T08:39:34 CEST" duration-ms="3475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome headless]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://test.view.tietoevry.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Verify_Customer_Sla_Report_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerSlaReportPageTests@1e636ea3]" started-at="2023-04-03T08:39:34 CEST" name="test_Verify_Customer_Sla_Report_Page_Opens_Correctly" finished-at="2023-04-03T08:40:07 CEST" duration-ms="32353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Verify_Customer_Sla_Report_Page_Opens_Correctly -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:Tietoevry.VIEW.CustomerSlaReportPageTests@1e636ea3]" started-at="2023-04-03T08:40:07 CEST" name="getResults" finished-at="2023-04-03T08:40:08 CEST" duration-ms="953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Verify_Customer_Sla_Report_Page_Opens_Correctly status=SUCCESS method=CustomerSlaReportPageTests.test_Verify_Customer_Sla_Report_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerSlaReportPageTests@1e636ea3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- Tietoevry.VIEW.CustomerSlaReportPageTests -->
+      <class name="Tietoevry.VIEW.CustomerServiceCataloguePageTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Tietoevry.VIEW.CustomerServiceCataloguePageTests@3da05287]" started-at="2023-04-03T08:38:53 CEST" name="setup" finished-at="2023-04-03T08:38:57 CEST" duration-ms="4511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome headless]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://test.view.tietoevry.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Verify_Customer_ServiceCatalogue_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerServiceCataloguePageTests@3da05287]" started-at="2023-04-03T08:38:57 CEST" name="test_Verify_Customer_ServiceCatalogue_Page_Opens_Correctly" finished-at="2023-04-03T08:39:30 CEST" duration-ms="32377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Verify_Customer_ServiceCatalogue_Page_Opens_Correctly -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:Tietoevry.VIEW.CustomerServiceCataloguePageTests@3da05287]" started-at="2023-04-03T08:39:30 CEST" name="getResults" finished-at="2023-04-03T08:39:31 CEST" duration-ms="1126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Verify_Customer_ServiceCatalogue_Page_Opens_Correctly status=SUCCESS method=CustomerServiceCataloguePageTests.test_Verify_Customer_ServiceCatalogue_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerServiceCataloguePageTests@3da05287] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- Tietoevry.VIEW.CustomerServiceCataloguePageTests -->
+      <class name="Tietoevry.VIEW.CustomerMessagesPageTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Tietoevry.VIEW.CustomerMessagesPageTests@6bbe2511]" started-at="2023-04-03T08:43:06 CEST" name="setup" finished-at="2023-04-03T08:43:09 CEST" duration-ms="3303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome headless]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://test.view.tietoevry.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Verify_Customer_Message_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerMessagesPageTests@6bbe2511]" started-at="2023-04-03T08:43:09 CEST" name="test_Verify_Customer_Message_Page_Opens_Correctly" finished-at="2023-04-03T08:43:26 CEST" duration-ms="17317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Verify_Customer_Message_Page_Opens_Correctly -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:Tietoevry.VIEW.CustomerMessagesPageTests@6bbe2511]" started-at="2023-04-03T08:43:26 CEST" name="getResults" finished-at="2023-04-03T08:43:27 CEST" duration-ms="944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Verify_Customer_Message_Page_Opens_Correctly status=SUCCESS method=CustomerMessagesPageTests.test_Verify_Customer_Message_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerMessagesPageTests@6bbe2511] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- Tietoevry.VIEW.CustomerMessagesPageTests -->
+      <class name="Tietoevry.VIEW.CustomerScorecardPageTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Tietoevry.VIEW.CustomerScorecardPageTests@76012793]" started-at="2023-04-03T08:43:27 CEST" name="setup" finished-at="2023-04-03T08:43:31 CEST" duration-ms="3262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome headless]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://test.view.tietoevry.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Verify_Customer_Scorecard_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerScorecardPageTests@76012793]" started-at="2023-04-03T08:43:31 CEST" name="test_Verify_Customer_Scorecard_Page_Opens_Correctly" finished-at="2023-04-03T08:43:48 CEST" duration-ms="17154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Verify_Customer_Scorecard_Page_Opens_Correctly -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:Tietoevry.VIEW.CustomerScorecardPageTests@76012793]" started-at="2023-04-03T08:43:48 CEST" name="getResults" finished-at="2023-04-03T08:43:49 CEST" duration-ms="991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Verify_Customer_Scorecard_Page_Opens_Correctly status=SUCCESS method=CustomerScorecardPageTests.test_Verify_Customer_Scorecard_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerScorecardPageTests@76012793] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- Tietoevry.VIEW.CustomerScorecardPageTests -->
+      <class name="Tietoevry.VIEW.CustomerMyProfilePageTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Tietoevry.VIEW.CustomerMyProfilePageTests@687ef2e0]" started-at="2023-04-03T08:38:03 CEST" name="setup" finished-at="2023-04-03T08:38:08 CEST" duration-ms="5101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome headless]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://test.view.tietoevry.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Verify_Customer_MyProfile_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerMyProfilePageTests@687ef2e0]" started-at="2023-04-03T08:38:08 CEST" name="test_Verify_Customer_MyProfile_Page_Opens_Correctly" finished-at="2023-04-03T08:38:28 CEST" duration-ms="19228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Verify_Customer_MyProfile_Page_Opens_Correctly -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:Tietoevry.VIEW.CustomerMyProfilePageTests@687ef2e0]" started-at="2023-04-03T08:38:28 CEST" name="getResults" finished-at="2023-04-03T08:38:29 CEST" duration-ms="977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Verify_Customer_MyProfile_Page_Opens_Correctly status=SUCCESS method=CustomerMyProfilePageTests.test_Verify_Customer_MyProfile_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerMyProfilePageTests@687ef2e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="terminateTest()[pri:0, instance:Tietoevry.VIEW.CustomerMyProfilePageTests@687ef2e0]" started-at="2023-04-03T08:43:49 CEST" name="terminateTest" finished-at="2023-04-03T08:43:49 CEST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateTest -->
+      </class> <!-- Tietoevry.VIEW.CustomerMyProfilePageTests -->
+      <class name="Tietoevry.VIEW.CustomerServiceDeskPageTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Tietoevry.VIEW.CustomerServiceDeskPageTests@115667d]" started-at="2023-04-03T08:40:08 CEST" name="setup" finished-at="2023-04-03T08:40:11 CEST" duration-ms="3483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome headless]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://test.view.tietoevry.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Verify_Customer_ServiceDesk_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerServiceDeskPageTests@115667d]" started-at="2023-04-03T08:40:11 CEST" name="test_Verify_Customer_ServiceDesk_Page_Opens_Correctly" finished-at="2023-04-03T08:40:43 CEST" duration-ms="32109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Verify_Customer_ServiceDesk_Page_Opens_Correctly -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:Tietoevry.VIEW.CustomerServiceDeskPageTests@115667d]" started-at="2023-04-03T08:40:43 CEST" name="getResults" finished-at="2023-04-03T08:40:44 CEST" duration-ms="926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Verify_Customer_ServiceDesk_Page_Opens_Correctly status=SUCCESS method=CustomerServiceDeskPageTests.test_Verify_Customer_ServiceDesk_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerServiceDeskPageTests@115667d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- Tietoevry.VIEW.CustomerServiceDeskPageTests -->
+      <class name="Tietoevry.VIEW.CustomerDocumentsPageTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Tietoevry.VIEW.CustomerDocumentsPageTests@63f8276e]" started-at="2023-04-03T08:41:56 CEST" name="setup" finished-at="2023-04-03T08:41:59 CEST" duration-ms="3393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome headless]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://test.view.tietoevry.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Verify_Documents_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerDocumentsPageTests@63f8276e]" started-at="2023-04-03T08:41:59 CEST" name="test_Verify_Documents_Page_Opens_Correctly" finished-at="2023-04-03T08:42:21 CEST" duration-ms="21301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Verify_Documents_Page_Opens_Correctly -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:Tietoevry.VIEW.CustomerDocumentsPageTests@63f8276e]" started-at="2023-04-03T08:42:21 CEST" name="getResults" finished-at="2023-04-03T08:42:22 CEST" duration-ms="940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Verify_Documents_Page_Opens_Correctly status=SUCCESS method=CustomerDocumentsPageTests.test_Verify_Documents_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerDocumentsPageTests@63f8276e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- Tietoevry.VIEW.CustomerDocumentsPageTests -->
+      <class name="Tietoevry.VIEW.CustomerCloudDashboardPageTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Tietoevry.VIEW.CustomerCloudDashboardPageTests@75f95314]" started-at="2023-04-03T08:42:22 CEST" name="setup" finished-at="2023-04-03T08:42:25 CEST" duration-ms="3365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome headless]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://test.view.tietoevry.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Verify_Cloud_CustomerDashborad_Page_Displayed_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerCloudDashboardPageTests@75f95314]" started-at="2023-04-03T08:42:25 CEST" name="test_Verify_Cloud_CustomerDashborad_Page_Displayed_Correctly" finished-at="2023-04-03T08:42:42 CEST" duration-ms="16564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Verify_Cloud_CustomerDashborad_Page_Displayed_Correctly -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:Tietoevry.VIEW.CustomerCloudDashboardPageTests@75f95314]" started-at="2023-04-03T08:42:42 CEST" name="getResults" finished-at="2023-04-03T08:42:44 CEST" duration-ms="1719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Verify_Cloud_CustomerDashborad_Page_Displayed_Correctly status=SUCCESS method=CustomerCloudDashboardPageTests.test_Verify_Cloud_CustomerDashborad_Page_Displayed_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerCloudDashboardPageTests@75f95314] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- Tietoevry.VIEW.CustomerCloudDashboardPageTests -->
+      <class name="Tietoevry.VIEW.CustomerWebServiceStatisticsPageTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Tietoevry.VIEW.CustomerWebServiceStatisticsPageTests@4ce7fffa]" started-at="2023-04-03T08:41:08 CEST" name="setup" finished-at="2023-04-03T08:41:11 CEST" duration-ms="3336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome headless]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://test.view.tietoevry.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Verify_Customer_Web_Service_Statistics_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerWebServiceStatisticsPageTests@4ce7fffa]" started-at="2023-04-03T08:41:11 CEST" name="test_Verify_Customer_Web_Service_Statistics_Page_Opens_Correctly" finished-at="2023-04-03T08:41:33 CEST" duration-ms="22052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Verify_Customer_Web_Service_Statistics_Page_Opens_Correctly -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:Tietoevry.VIEW.CustomerWebServiceStatisticsPageTests@4ce7fffa]" started-at="2023-04-03T08:41:33 CEST" name="getResults" finished-at="2023-04-03T08:41:34 CEST" duration-ms="878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Verify_Customer_Web_Service_Statistics_Page_Opens_Correctly status=SUCCESS method=CustomerWebServiceStatisticsPageTests.test_Verify_Customer_Web_Service_Statistics_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerWebServiceStatisticsPageTests@4ce7fffa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- Tietoevry.VIEW.CustomerWebServiceStatisticsPageTests -->
+      <class name="Tietoevry.VIEW.CustomerCertificatePageTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Tietoevry.VIEW.CustomerCertificatePageTests@497486b3]" started-at="2023-04-03T08:41:34 CEST" name="setup" finished-at="2023-04-03T08:41:38 CEST" duration-ms="3563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome headless]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://test.view.tietoevry.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Verify_Customer_Certificate_Page_Displayed_Properly()[pri:1, instance:Tietoevry.VIEW.CustomerCertificatePageTests@497486b3]" started-at="2023-04-03T08:41:38 CEST" name="test_Verify_Customer_Certificate_Page_Displayed_Properly" finished-at="2023-04-03T08:41:55 CEST" duration-ms="17145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Verify_Customer_Certificate_Page_Displayed_Properly -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:Tietoevry.VIEW.CustomerCertificatePageTests@497486b3]" started-at="2023-04-03T08:41:55 CEST" name="getResults" finished-at="2023-04-03T08:41:56 CEST" duration-ms="918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Verify_Customer_Certificate_Page_Displayed_Properly status=SUCCESS method=CustomerCertificatePageTests.test_Verify_Customer_Certificate_Page_Displayed_Properly()[pri:1, instance:Tietoevry.VIEW.CustomerCertificatePageTests@497486b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- Tietoevry.VIEW.CustomerCertificatePageTests -->
+      <class name="Tietoevry.VIEW.CustomerCloudUserPageTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Tietoevry.VIEW.CustomerCloudUserPageTests@736caf7a]" started-at="2023-04-03T08:40:44 CEST" name="setup" finished-at="2023-04-03T08:40:49 CEST" duration-ms="4783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome headless]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://test.view.tietoevry.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Verify_Cloud_Customer_User_Page_Displayed_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerCloudUserPageTests@736caf7a]" started-at="2023-04-03T08:40:49 CEST" name="test_Verify_Cloud_Customer_User_Page_Displayed_Correctly" finished-at="2023-04-03T08:41:07 CEST" duration-ms="17698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Verify_Cloud_Customer_User_Page_Displayed_Correctly -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:Tietoevry.VIEW.CustomerCloudUserPageTests@736caf7a]" started-at="2023-04-03T08:41:07 CEST" name="getResults" finished-at="2023-04-03T08:41:08 CEST" duration-ms="964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Verify_Cloud_Customer_User_Page_Displayed_Correctly status=SUCCESS method=CustomerCloudUserPageTests.test_Verify_Cloud_Customer_User_Page_Displayed_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerCloudUserPageTests@736caf7a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- Tietoevry.VIEW.CustomerCloudUserPageTests -->
+      <class name="Tietoevry.VIEW.CustomerAPIAndEventCataloguePageTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Tietoevry.VIEW.CustomerAPIAndEventCataloguePageTests@6127a7e]" started-at="2023-04-03T08:42:44 CEST" name="setup" finished-at="2023-04-03T08:42:47 CEST" duration-ms="3270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome headless]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://test.view.tietoevry.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Verify_Customer_ApiAndEventCatalogue_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerAPIAndEventCataloguePageTests@6127a7e]" started-at="2023-04-03T08:42:47 CEST" name="test_Verify_Customer_ApiAndEventCatalogue_Page_Opens_Correctly" finished-at="2023-04-03T08:43:04 CEST" duration-ms="17607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Verify_Customer_ApiAndEventCatalogue_Page_Opens_Correctly -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:Tietoevry.VIEW.CustomerAPIAndEventCataloguePageTests@6127a7e]" started-at="2023-04-03T08:43:05 CEST" name="getResults" finished-at="2023-04-03T08:43:06 CEST" duration-ms="1105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Verify_Customer_ApiAndEventCatalogue_Page_Opens_Correctly status=SUCCESS method=CustomerAPIAndEventCataloguePageTests.test_Verify_Customer_ApiAndEventCatalogue_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerAPIAndEventCataloguePageTests@6127a7e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- Tietoevry.VIEW.CustomerAPIAndEventCataloguePageTests -->
+      <class name="Tietoevry.VIEW.CustomerPSD2ReportPageTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Tietoevry.VIEW.CustomerPSD2ReportPageTests@15dcfae7]" started-at="2023-04-03T08:38:29 CEST" name="setup" finished-at="2023-04-03T08:38:32 CEST" duration-ms="3507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome headless]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://test.view.tietoevry.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Verify_Customer_PSD2_Report_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerPSD2ReportPageTests@15dcfae7]" started-at="2023-04-03T08:38:32 CEST" name="test_Verify_Customer_PSD2_Report_Page_Opens_Correctly" finished-at="2023-04-03T08:38:52 CEST" duration-ms="19347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Verify_Customer_PSD2_Report_Page_Opens_Correctly -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:Tietoevry.VIEW.CustomerPSD2ReportPageTests@15dcfae7]" started-at="2023-04-03T08:38:52 CEST" name="getResults" finished-at="2023-04-03T08:38:53 CEST" duration-ms="932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Verify_Customer_PSD2_Report_Page_Opens_Correctly status=SUCCESS method=CustomerPSD2ReportPageTests.test_Verify_Customer_PSD2_Report_Page_Opens_Correctly()[pri:1, instance:Tietoevry.VIEW.CustomerPSD2ReportPageTests@15dcfae7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- Tietoevry.VIEW.CustomerPSD2ReportPageTests -->
+    </test> <!-- Customer Section Tests -->
+  </suite> <!-- Suite -->
+</testng-results>

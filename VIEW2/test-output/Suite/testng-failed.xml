@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="testcomponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Admin Section Tests(failed)">
+    <parameter name="URL" value="https://test.view.tietoevry.com/Admin/login"/>
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Tietoevry.VIEW.AdminMessagePageTests">
+        <methods>
+          <include name="getResults"/>
+          <include name="test_Create_Global_Alert_Message"/>
+          <include name="terminateTest"/>
+          <include name="setup"/>
+          <include name="test_Stop_Global_Alert_Message"/>
+        </methods>
+      </class> <!-- Tietoevry.VIEW.AdminMessagePageTests -->
+    </classes>
+  </test> <!-- Admin Section Tests(failed) -->
+  <test thread-count="5" name="Customer Section Tests(failed)">
+    <parameter name="URL" value="https://test.view.tietoevry.com/"/>
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Tietoevry.VIEW.CustomerCloudUserPageTests">
+        <methods>
+          <include name="getResults"/>
+          <include name="terminateTest"/>
+          <include name="setup"/>
+          <include name="test_Verify_Cloud_Customer_User_Page_Displayed_Correctly"/>
+          <include name="test_Verify_Cloud_Customer_User_Page_Create_New_User"/>
+        </methods>
+      </class> <!-- Tietoevry.VIEW.CustomerCloudUserPageTests -->
+    </classes>
+  </test> <!-- Customer Section Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

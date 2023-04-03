@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose ="1" parallel="tests" thread-count="2">
+<groups>
+		<run>
+			<include name="regression" />
+		</run>
+	</groups>
+<listeners>
+<listener class-name="testcomponents.Listeners"></listener>
+</listeners>
+<test name = "Admin Section Tests" thread-count="5">
+<parameter name="browser" value="chrome" />
+<parameter name="URL" value="https://test.view.tietoevry.com/Admin/login" /> 
+
+   <classes>
+	   
+	    <class name="Tietoevry.VIEW.AdminServiceStatusPageTests"/>
+  	    <class name="Tietoevry.VIEW.AdminMessagePageTests"/>
+		<class name="Tietoevry.VIEW.AdminSupportBrickTest"/>
+	  	<class name="Tietoevry.VIEW.AdminCustomerMessagePageTests"/>
+	  	<class name="Tietoevry.VIEW.AdminDashboardPageTests"/> 
+	  	<class name="Tietoevry.VIEW.AdminCloudLoginPageTests"/>
+	  	<class name="Tietoevry.VIEW.AdminOperationalMessageTests"/>
+	  	<class name="Tietoevry.VIEW.AdminServiceStatusPageTests"/>
+		
+	</classes>
+		   
+  </test>
+
+
+<test name = "Customer Section Tests" thread-count="5">
+<parameter name="browser" value="chrome" />
+<parameter name="URL" value="https://test.view.tietoevry.com/" />
+
+   <classes>
+	   
+	  <class name="Tietoevry.VIEW.CustomerMyProfilePageTests"/>
+	  <class name="Tietoevry.VIEW.CustomerPSD2ReportPageTests"/>
+	  <class name="Tietoevry.VIEW.CustomerServiceCataloguePageTests"/>
+	  <class name="Tietoevry.VIEW.CustomerSlaReportPageTests"/>
+	  <class name="Tietoevry.VIEW.CustomerServiceDeskPageTests"/>
+	  <class name="Tietoevry.VIEW.CustomerCloudUserPageTests"/>
+	  <class name="Tietoevry.VIEW.CustomerWebServiceStatisticsPageTests"/>
+	  <class name="Tietoevry.VIEW.CustomerCertificatePageTests"/>
+	  <class name="Tietoevry.VIEW.CustomerDocumentsPageTests"/> 
+	  <class name="Tietoevry.VIEW.CustomerCloudDashboardPageTests"/>
+	  <class name="Tietoevry.VIEW.CustomerAPIAndEventCataloguePageTests"/>
+	  <class name="Tietoevry.VIEW.CustomerCloudUserPageTests"/>
+	  <class name="Tietoevry.VIEW.CustomerMessagesPageTests"/> 
+	  <class name="Tietoevry.VIEW.CustomerMonitoringPageTests"/>
+	  <class name="Tietoevry.VIEW.CustomerScorecardPageTests"/>
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

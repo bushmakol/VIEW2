@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>TestNG:  Customer Section Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Customer Section Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 03 08:38:03 CEST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>345 seconds (345572 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>smoke </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Tietoevry.VIEW.CustomerSlaReportPageTests.test_Verify_Customer_Sla_Report_Page_Opens_Correctly()'><b>test_Verify_Customer_Sla_Report_Page_Opens_Correctly</b><br>Test class: Tietoevry.VIEW.CustomerSlaReportPageTests</td>
+<td></td>
+<td>32</td>
+<td>Tietoevry.VIEW.CustomerSlaReportPageTests@1e636ea3</td></tr>
+<tr>
+<td title='Tietoevry.VIEW.CustomerWebServiceStatisticsPageTests.test_Verify_Customer_Web_Service_Statistics_Page_Opens_Correctly()'><b>test_Verify_Customer_Web_Service_Statistics_Page_Opens_Correctly</b><br>Test class: Tietoevry.VIEW.CustomerWebServiceStatisticsPageTests</td>
+<td></td>
+<td>22</td>
+<td>Tietoevry.VIEW.CustomerWebServiceStatisticsPageTests@4ce7fffa</td></tr>
+<tr>
+<td title='Tietoevry.VIEW.CustomerPSD2ReportPageTests.test_Verify_Customer_PSD2_Report_Page_Opens_Correctly()'><b>test_Verify_Customer_PSD2_Report_Page_Opens_Correctly</b><br>Test class: Tietoevry.VIEW.CustomerPSD2ReportPageTests</td>
+<td></td>
+<td>19</td>
+<td>Tietoevry.VIEW.CustomerPSD2ReportPageTests@15dcfae7</td></tr>
+<tr>
+<td title='Tietoevry.VIEW.CustomerDocumentsPageTests.test_Verify_Documents_Page_Opens_Correctly()'><b>test_Verify_Documents_Page_Opens_Correctly</b><br>Test class: Tietoevry.VIEW.CustomerDocumentsPageTests</td>
+<td></td>
+<td>21</td>
+<td>Tietoevry.VIEW.CustomerDocumentsPageTests@63f8276e</td></tr>
+<tr>
+<td title='Tietoevry.VIEW.CustomerAPIAndEventCataloguePageTests.test_Verify_Customer_ApiAndEventCatalogue_Page_Opens_Correctly()'><b>test_Verify_Customer_ApiAndEventCatalogue_Page_Opens_Correctly</b><br>Test class: Tietoevry.VIEW.CustomerAPIAndEventCataloguePageTests</td>
+<td></td>
+<td>17</td>
+<td>Tietoevry.VIEW.CustomerAPIAndEventCataloguePageTests@6127a7e</td></tr>
+<tr>
+<td title='Tietoevry.VIEW.CustomerMessagesPageTests.test_Verify_Customer_Message_Page_Opens_Correctly()'><b>test_Verify_Customer_Message_Page_Opens_Correctly</b><br>Test class: Tietoevry.VIEW.CustomerMessagesPageTests</td>
+<td></td>
+<td>17</td>
+<td>Tietoevry.VIEW.CustomerMessagesPageTests@6bbe2511</td></tr>
+<tr>
+<td title='Tietoevry.VIEW.CustomerScorecardPageTests.test_Verify_Customer_Scorecard_Page_Opens_Correctly()'><b>test_Verify_Customer_Scorecard_Page_Opens_Correctly</b><br>Test class: Tietoevry.VIEW.CustomerScorecardPageTests</td>
+<td></td>
+<td>17</td>
+<td>Tietoevry.VIEW.CustomerScorecardPageTests@76012793</td></tr>
+<tr>
+<td title='Tietoevry.VIEW.CustomerCloudDashboardPageTests.test_Verify_Cloud_CustomerDashborad_Page_Displayed_Correctly()'><b>test_Verify_Cloud_CustomerDashborad_Page_Displayed_Correctly</b><br>Test class: Tietoevry.VIEW.CustomerCloudDashboardPageTests</td>
+<td></td>
+<td>16</td>
+<td>Tietoevry.VIEW.CustomerCloudDashboardPageTests@75f95314</td></tr>
+<tr>
+<td title='Tietoevry.VIEW.CustomerMyProfilePageTests.test_Verify_Customer_MyProfile_Page_Opens_Correctly()'><b>test_Verify_Customer_MyProfile_Page_Opens_Correctly</b><br>Test class: Tietoevry.VIEW.CustomerMyProfilePageTests</td>
+<td></td>
+<td>19</td>
+<td>Tietoevry.VIEW.CustomerMyProfilePageTests@687ef2e0</td></tr>
+<tr>
+<td title='Tietoevry.VIEW.CustomerServiceDeskPageTests.test_Verify_Customer_ServiceDesk_Page_Opens_Correctly()'><b>test_Verify_Customer_ServiceDesk_Page_Opens_Correctly</b><br>Test class: Tietoevry.VIEW.CustomerServiceDeskPageTests</td>
+<td></td>
+<td>32</td>
+<td>Tietoevry.VIEW.CustomerServiceDeskPageTests@115667d</td></tr>
+<tr>
+<td title='Tietoevry.VIEW.CustomerServiceCataloguePageTests.test_Verify_Customer_ServiceCatalogue_Page_Opens_Correctly()'><b>test_Verify_Customer_ServiceCatalogue_Page_Opens_Correctly</b><br>Test class: Tietoevry.VIEW.CustomerServiceCataloguePageTests</td>
+<td></td>
+<td>32</td>
+<td>Tietoevry.VIEW.CustomerServiceCataloguePageTests@3da05287</td></tr>
+<tr>
+<td title='Tietoevry.VIEW.CustomerCertificatePageTests.test_Verify_Customer_Certificate_Page_Displayed_Properly()'><b>test_Verify_Customer_Certificate_Page_Displayed_Properly</b><br>Test class: Tietoevry.VIEW.CustomerCertificatePageTests</td>
+<td></td>
+<td>17</td>
+<td>Tietoevry.VIEW.CustomerCertificatePageTests@497486b3</td></tr>
+<tr>
+<td title='Tietoevry.VIEW.CustomerCloudUserPageTests.test_Verify_Cloud_Customer_User_Page_Displayed_Correctly()'><b>test_Verify_Cloud_Customer_User_Page_Displayed_Correctly</b><br>Test class: Tietoevry.VIEW.CustomerCloudUserPageTests</td>
+<td></td>
+<td>17</td>
+<td>Tietoevry.VIEW.CustomerCloudUserPageTests@736caf7a</td></tr>
+</table><p>
+</body>
+</html>
